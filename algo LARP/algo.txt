@@ -1,0 +1,65 @@
+ex 1.1
+a=3 b=4
+
+ex 1.2
+a=2 b=3 c=1
+
+ex1.3
+a=6 b=2
+
+ex1.4
+a=13 b=13 c=13
+
+ex1.5
+a=2 b=2
+oui le resultat aurais ete 5
+
+ex1.6
+a=valeurA b=valeurB
+c = a
+a = b
+b = c
+
+ex1.7
+a= valeurA b= ValeurB c= valeurC
+d = a
+
+a = c
+c = b 
+b = d
+
+ex1.8
+c="42312"
+
+ex1.9
+affiche une erreur
+
+2.1
+il double la valeur d entree double = 462
+
+2.2
+LIRE valeur 
+resultat = valeur * valeur
+ECRIRE resultat
+
+2.3
+Libellés "Prix HT"
+LIRE prixHT 
+Libellés "Nombre d'article"
+LIRE nonbre  
+Libellés "TVA"
+LIRE TVA
+
+prixTTC = (prixHT/100) * TVA
+
+
+2.4
+i1 = "D’amour mourir me font, belle Marquise, vos beaux yeux"
+i2 = "Vos yeux beaux d’amour me font, belle Marquise, mourir" 
+i3 = "Mourir vos beaux yeux, belle Marquise, d’amour me font" 
+i4 = "Me font vos yeux beaux mourir, belle Marquise, d’amour."
+
+ECRIRE i1
+ECRIRE i2
+ECRIRE i3
+ECRIRE i4

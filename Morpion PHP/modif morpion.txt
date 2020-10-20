@@ -1,0 +1,14 @@
+selectioner position
+demander juste une colonne verifier qu il rest une place sinon redemander 
+
+remplire tableau 
+stoker le simbole du joueur dans le tableau a la 1ere case vide de la colonne demander
+
+convertire les coordonnees 
+plus utile 
+
+conversion de position
+plus utile 
+
+
+
