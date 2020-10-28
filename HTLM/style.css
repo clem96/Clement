@@ -1,0 +1,13 @@
+body{
+    margin: 0px;
+}
+header{
+    background-color: darkgreen;
+    margin: 0;
+    height: 60px;
+}
+
+img{
+    display: inline;
+    wrap: nowrap;
+}
