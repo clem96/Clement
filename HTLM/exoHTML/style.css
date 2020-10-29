@@ -1,0 +1,32 @@
+
+body{
+    margin: 0px;
+}
+.flex{
+    display: flex;
+}
+
+.rouge{
+    background-color: red;
+    height: 70vh;
+    width: 30vw;
+}
+
+.vert{
+    background-color:green;
+    width: 70vw;
+    height: 70vh;
+}
+
+.jaune{
+    background-color: yellow;
+    height: 29vh;
+    width: 30vw;
+}
+
+.bleu{
+    background-color:lightblue;
+    width: 70vw;
+    height: 29vh;
+}
+
