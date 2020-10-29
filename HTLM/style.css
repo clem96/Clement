@@ -1,13 +1,41 @@
 body{
     margin: 0px;
+    background-color: royalblue;
 }
+h2{
+    margin: 0;
+}
+
+div{
+    border: solid 2px black;
+    margin: 20px;
+    background-color: gray;
+}
+
 header{
     background-color: darkgreen;
     margin: 0;
     height: 60px;
 }
-
-img{
-    display: inline;
-    wrap: nowrap;
+.divrouge{
+    background-color: red;
 }
+#text{
+    color: greenyellow;
+}
+
+
+span{
+    color: pink;
+    font-size: 1.3em;
+}
+
+.hov :hover{
+    font-size: 2em;
+}
+
+.main{
+padding: 20px;
+}
+
+    
