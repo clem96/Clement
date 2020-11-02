@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding:  10px;
+    background-color: blue;
+    display: flex;
+    z-index: -1;
+}
+div{
+    flex: 1;
+    padding: 5px;
+}
+.rouge, .centre, .vert{
+    display: flex;
+    z-index: 10;
+    height: 200px;
+    border: 2px solid black ;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+
+.rouge{
+    background-color: red;
+}
+
+.centre{
+    flex-direction: row;
+    height: 500px;
+}
+
+.jaune{
+    background-color: yellow;
+}
+
+.gris{
+    background-color: grey;
+    flex: 0.4;
+}
+
+.vert{
+    background-color: green;
+    
+}

@@ -1,0 +1,36 @@
+div{
+    display: flex;
+    margin: 0.3em;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: red;
+}
+
+.headDiv{
+    border: 2px solid black;
+    flex: 1;
+}
+
+.left{
+    background-color: lightgrey;
+    flex: 0.5;
+    border-radius: 10px;
+    margin-right: 0.3em ;
+}
+
+.right{
+    background-color: lightgrey;
+    flex: 0.5;
+    border-radius: 10px;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: red;
+}
