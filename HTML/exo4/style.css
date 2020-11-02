@@ -2,30 +2,81 @@ div{
     display: flex;
     margin: 0.3em;
 }
+.logo{
+    width: 100%;
+}
 
 header{
     display: flex;
     width: 100%;
-    height: 80px;
     background-color: red;
 }
 
-.headDiv{
+.headDiv1{
     border: 2px solid black;
-    flex: 1;
+    flex: 0.3;
 }
 
+h1{
+    margin: 10px;
+}
+.headDiv2{
+    border: 2px solid black;
+    flex: 0.8;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+button{
+    margin: 0.5em;
+}
+.headDiv3{
+    border: 2px solid black;
+    flex: 0.3;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+aside>div{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: brown;
+    border-radius: 10px;
+}
+aside{
+    display: flex;
+    background-color: grey;
+    flex-flow: column;
+    padding: 0.5em;
+    flex: 0.25;
+}
 .left{
     background-color: lightgrey;
-    flex: 0.5;
     border-radius: 10px;
     margin-right: 0.3em ;
+    flex-direction: column;
+    padding: 0.5em;
+    flex: 0.5em;
+    flex-wrap: wrap;
 }
 
 .right{
     background-color: lightgrey;
-    flex: 0.5;
     border-radius: 10px;
+    flex: 0.3;
+
+}
+
+img{
+    width: 100%;
+
+}
+.space{
+flex: 0.5em;
+
 }
 
 footer{
@@ -34,3 +85,35 @@ footer{
     height: 200px;
     background-color: red;
 }
+
+
+.footerLeft{
+border: 2px solid black;
+flex: 0.3em; 
+flex-flow: column;
+justify-content: center;
+align-items: center;
+}
+
+
+.footerRight{
+    border: 2px solid black;
+   flex: 0.3em; 
+   }
+
+h3{
+    margin: 5px;
+}
+
+.footerCentre{
+border: 2px solid black;
+flex: 0.3em; 
+flex-flow: column;
+justify-content: center;
+align-items: center;
+}
+
+
+
+
+
