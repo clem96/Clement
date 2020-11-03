@@ -1,0 +1,38 @@
+nav{
+    display: flex;
+    flex-flow: row;
+    background-color: lightgrey;
+}
+
+.btn{
+    margin-right: 2em ;
+    position: relative;
+    background-color: lightgrey;
+    display: flex;
+}
+
+.menu{
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    align-items: center;
+     display: none;
+}
+
+p{
+    padding: 1em;
+}
+
+.btn:hover{
+    background-color: grey;
+}
+
+.btn:hover .menu{
+    display: flex;
+    flex-flow: column;
+    background-color: grey;
+}
+
+p:hover{
+    background-color: orangered;
+}
