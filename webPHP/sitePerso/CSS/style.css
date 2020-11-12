@@ -1,3 +1,7 @@
+html{
+    width: 100%;
+}
+
 body{
     width: 100%;
     padding: 0px;
@@ -13,6 +17,9 @@ body{
 
 }
 
+.col{
+    flex-direction: column;
+}
 div{
     display: flex;
     flex: 1;
@@ -35,11 +42,12 @@ header{
     margin: 0;
     background-color: var(--fond);
     flex-flow: row;
+    margin-right: 5em;
 }
 
 .titre{
     font-family: 'Lobster', cursive, arial;
-    font-weight: ;
+    margin: 2em;
 }
 
 .fond{
@@ -52,6 +60,7 @@ header{
     flex-direction: column;
     align-items: center;
     height: 30vh;
+    padding: 2em;
 }
 
 .link{
@@ -91,7 +100,9 @@ nav{
      display: none;
 }
 
-p{
+.btn>p,
+.aff
+{
     padding: 1em;
 }
 
@@ -105,6 +116,6 @@ p{
     background-color: var(--hover);
 }
 
-p:hover{
+.aff:hover{
     background-color: orangered;
 }
