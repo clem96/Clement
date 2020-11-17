@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     margin: 0px;
     padding: 0px;
@@ -61,3 +62,68 @@ background-color: black;
 
 
 
+=======
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #E5EBF7;
+}
+div{
+    display: flex;
+    flex: 1;
+}
+img{
+    width: 100%;
+  height: 100%;
+}
+.row{
+    flex-flow: row;
+}
+.colonne{
+    flex-flow: column;
+}
+header{
+    display: flex;
+    height: 3em;
+}
+
+#page{
+margin: 4em 8em 0 8em ;
+padding: 5em;
+box-shadow: 2px 2px 10px black;
+}
+
+.centre{
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    flex: 0.2;
+}
+
+footer{
+    background-color: #0A6290;
+    color: #fff;
+    margin-top: 1em;
+}
+
+.footer>p{
+    margin: 6em;
+}
+
+.black{
+background-color: black;
+}
+.pagetitre{
+    color: #0A6290;
+    font-weight: bolder;
+}
+.margin,
+.padding{
+    margin: 2em;
+}
+
+
+
+>>>>>>> f76b6892aa59fa39870ad95a641e6f3dbc9589c7

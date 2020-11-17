@@ -1,5 +1,5 @@
 U:
-cd U:\59011-95-05
+cd U:\clement
 git add . 
 git commit -m "%date% %time%"
 git push
