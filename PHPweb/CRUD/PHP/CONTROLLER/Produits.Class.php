@@ -4,7 +4,7 @@ class Produits
   private $_dateDePeremption;
   private $_libelle;
   private $_prix;
-  private $_idProduit;
+  private $_idProduits;
 
       
     /*****************Constructeur***************** */
@@ -92,9 +92,9 @@ class Produits
   /**
    * Get the value of _idProduit
    */ 
-  public function get_idProduit()
+  public function getIdProduits()
   {
-    return $this->_idProduit;
+    return $this->_idProduits;
   }
 
   /**
@@ -102,11 +102,16 @@ class Produits
    *
    * @return  self
    */ 
-  public function set_idProduit($_idProduit)
+  public function setIdProduits($_idProduits)
   {
-    $this->_idProduit = $_idProduit;
+    $this->_idProduits = $_idProduits;
 
     return $this;
+  }
+  //autre methodes:
+  public function toString()
+  {
+    echo('libelle :' .$this->getLibelle() .'id : '.$this->getIdProduits()  .'prix : '.$this->getPrix().'date de peremption :'.$this->getDateDePeremption());
   }
 }
 

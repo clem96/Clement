@@ -5,5 +5,6 @@
         </div>
         <div class="titre">Gestion des produits</div>
         <div></div>
+        <a href="index.php"><button>Retour accueil</button></a>
     </header>
 

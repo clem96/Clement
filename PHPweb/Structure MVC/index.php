@@ -15,7 +15,28 @@ ProduitsManager::delete($psup);
 $newproduit = new Produits(["libelle" => "cahier", "prix" => 5, "dateDePeremption" => '2020-12-31']);
 ProduitsManager::add($newproduit);
 
-$liste[]=ProduitsManager::getList();
+$liste=ProduitsManager::getList();
+foreach($liste as $ele)
+{
+echo $ele->toString() .'<br>';
+};
+
+//*********clients***********/
+
+//recherche par id
+$resultat = ClientsManager::findById(6);
+var_dump($resultat);
+
+//suppersion par id
+$supp = ClientsManager::findById(1);
+var_dump($supp);
+ClientsManager::delete($supp);
+
+//ajout
+$newClients = new Clients(["idClients"=>"23", "nom"=>"test", "prenom"=>"test", "age"=>30]);
+ClientsManager::add($newClients);
+
+$liste=ClientsManager::getList();
 foreach($liste as $ele)
 {
 echo $ele->toString() .'<br>';

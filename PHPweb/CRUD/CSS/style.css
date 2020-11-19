@@ -1,0 +1,44 @@
+body, header,div{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+.center{
+    justify-content: center;
+}
+.dp{
+    display: flex;
+}
+
+.colonne{
+    flex-direction: column;
+}
+
+.row{
+    flex-flow: row;
+}
+
+h1 {
+	color: coral;
+    font-size: 3em;
+    justify-content: center;
+    align-items: center;
+}
+
+input[submit]{
+    width: 100%;
+}
+
+.case{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5em;
+}
+
+.green{
+background-color: green;
+}
+
+.red{
+    background-color: red;
+}

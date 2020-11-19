@@ -5,15 +5,17 @@
 
 function chargerClasse($classe)
 {
-    if (file_exists("Php/Controller/" . $classe . ".class.php"))
+    if (file_exists("Php/controller/" . $classe . ".class.php"))
     {
-        require "Php/Controller/" . $classe . ".class.php";
+        require "Php/controller/" . $classe . ".class.php";
+    }
+   
+
+    if (file_exists("Php/model/" . $classe . ".class.php"))
+    {
+        require "Php/model/" . $classe . ".class.php";
     }
 
-    if (file_exists("Php/Model/" . $classe . ".class.php"))
-    {
-        require "Php/Model/" . $classe . ".class.php";
-    }
 
 }
 spl_autoload_register("chargerClasse");

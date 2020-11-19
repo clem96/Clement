@@ -111,7 +111,7 @@ class Produits
   //autre methodes:
   public function toString()
   {
-    echo('libelle :' .$this->getLibelle() .'id : '.$this->getIdProduit()  .'prix : '.$this->getPrix().'date de peremption :'.$this->getDateDePeremption());
+    echo('libelle :' .$this->getLibelle() .'id : '.$this->getIdProduits()  .'prix : '.$this->getPrix().'date de peremption :'.$this->getDateDePeremption());
   }
 }
 
