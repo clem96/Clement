@@ -2,17 +2,23 @@
  include "Head.php";
  include "Header.php";
 
-$prod = ProduitsManager::findById($_get[id]);
+$obj = ProduitsManager::findById($_GET['id']);
 
-echo'<h1 class="dp row center">Formulaire Suppersion Modification</h1>
+
+echo'<h1 class="dp row center">Formulaire Modification</h1>
+
         <form class="dp row center" methode="post" action="Traitement.php">
+            <label for="id">Id produit :</label>
+            <input value="'.$obj->getIdProduits().'" neam="id" type="text" disable>
             <label for="libelle">libelle :</label>
-            <input placeholder='.$prod->getLibelle().'neam="libelle" type="text">
+            <input value="'.$obj->getLibelle().'" neam="libelle" type="text">
             <label for="prix">Prix : :</label>
-            <input placeholder='.$prod->getPrix().'neam="prix" type="text">
+            <input value='.$obj->getPrix().' neam="prix" type="text">
             <label for="date">Date :</label>
-            <input placeholder='.$prod->getDateDePeremption().'neam="date" type="text">
-            <input class="red" type="submit" value="SUPPRIMER">
+            <input value='.$obj->getDateDePeremption().' neam="date" type="text">
+            <input class="green" type="submit" value="Modifier">
         </form>';
+    
 
- include "PHP/VIEW/Footer.php";
+ include "Footer.php";
+ 

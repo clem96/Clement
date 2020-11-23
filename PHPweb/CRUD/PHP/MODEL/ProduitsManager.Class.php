@@ -16,7 +16,7 @@ class ProduitsManager
     {
         $db = DbConnect::getDb();
         $q = $db->prepare("UPDATE produits SET libelle=:libelle, prix=:prix, dateDePeremption=:dateDePeremption WHERE idProduit=:idProduit");
-        $q->bindValue(":libelleProduit", $obj->getLibelle());
+        $q->bindValue(":libelle", $obj->getLibelle());
         $q->bindValue(":prix", $obj->getPrix());
         $q->bindValue(":dateDePeremption", $obj->getDateDePeremption());
         $q->bindValue(":idProduit", $obj->getIdProduits());
